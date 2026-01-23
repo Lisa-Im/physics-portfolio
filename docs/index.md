@@ -4,7 +4,8 @@ title: Physics Portfolio
 
 # Physics Portfolio
 
-이 페이지는 **이론물리 연구/학습 산출물 아카이브의 입구**입니다.
+이 페이지는 **이론물리 연구/학습 산출물 아카이브**입니다.
+(Not ready yet. working in process...)
 
 ## Start here (추천)
 - **Research**: 석사 논문 관련 계산/정리, 프로젝트 단위 기록 → [Research](research.md)
