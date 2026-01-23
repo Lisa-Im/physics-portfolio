@@ -7,10 +7,6 @@ footer, .site-footer, .page-footer, .site-footer-credits {
   display: none !important;
 }
 
----
----
-
-@import "{{ site.theme }}";
 
 /* 상단 'View on GitHub' 버튼 숨기기 */
 a.btn { display: none !important; }
