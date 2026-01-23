@@ -1,18 +1,14 @@
 ---
 ---
 
-/* View on GitHub 버튼: midnight에서 button 클래스/아이디가 달라서 넓게 잡기 */
-a.button,
-.button,
-#forkme_banner,
-.page-header a,
-.page-header a.button,
-.page-header .button,
-.page-header #forkme_banner {
+@import "{{ site.theme }}";
+
+/* footer 숨기기 */
+footer, .site-footer, .page-footer, .site-footer-credits {
   display: none !important;
 }
 
-/* (원하면) footer도 계속 숨기기 */
-footer, .site-footer, .page-footer, .site-footer-credits {
+/* View on GitHub 버튼(=forkme banner) 숨기기 */
+#forkme_banner {
   display: none !important;
 }
