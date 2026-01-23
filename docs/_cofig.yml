@@ -1,0 +1,17 @@
+title: "Physics Portfolio"
+description: "Theoretical physics notes, derivations, and reproducible calculations"
+theme: jekyll-theme-cayman 
+# jekyll-them-cayman : 지원되는 테마. GitHub 공식 문서 흐름대로 _cofig.yml에 적는 방식
+# `docs` publishing source 자체도 공식 지원
+
+# Project Pages일 때 baseurl이 중요할 수 있음
+url: "https://lisa-im.github.io"
+baseurl: "/physics-portfolio"
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-relative-links
