@@ -7,7 +7,7 @@ title: Physics Portfolio
 이 페이지는 **이론물리 연구/학습 산출물 아카이브**입니다.
 (Not ready yet. working in process...)
 
-## Start here (추천)
+## Start here 
 - **Research**: 석사 논문 관련 계산/정리, 프로젝트 단위 기록 → [Research](research.md)
 - **Notes**: QFT/입자물리/기초과목 요약 노트 → [Notes](notes.md)
 - **Code**: 계산 자동화/시각화 실습 → [Code](code.md)
