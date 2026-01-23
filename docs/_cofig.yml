@@ -1,6 +1,6 @@
 title: "Physics Portfolio"
 description: "Theoretical physics notes, derivations, and reproducible calculations"
-theme: jekyll-theme-slate 
+theme: jekyll-theme-midnight
 # jekyll-them-cayman : 지원되는 테마. GitHub 공식 문서 흐름대로 _cofig.yml에 적는 방식
 # `docs` publishing source 자체도 공식 지원
 
