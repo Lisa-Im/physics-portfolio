@@ -4,8 +4,7 @@ title: Code
 
 # Code
 
-- RG flow visualization (ipynb): (링크)
-- Loop integral scripts: (링크)
+- WIP
 
 각 코드 폴더에는:
 - 무엇을 계산하는지
