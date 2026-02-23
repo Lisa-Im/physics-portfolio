@@ -1,5 +1,5 @@
 ---
-title: Physics Portfolio
+title: Home
 nav_order: 1
 ---
 
