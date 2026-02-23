@@ -1,20 +1,19 @@
 title: "Physics Portfolio"
 description: "Theoretical physics notes, derivations, and reproducible calculations"
 
-# GitHub-hosted theme
-remote_theme: just-the-docs/just-the-docs
+# ✅ Just the Docs 버전 고정 (HEAD 금지)
+remote_theme: just-the-docs/just-the-docs@v0.8.2
 
-# GitHub Pages에서 remote_theme 사용 시 흔히 같이 둠
+# ✅ GitHub Pages 환경에서 필요한 플러그인만
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 
-# Project Pages면 baseurl 중요
 url: "https://lisa-im.github.io"
 baseurl: "/physics-portfolio"
 
-# Just the Docs 옵션(필수는 아님, 취향)
 search_enabled: true
 color_scheme: dark
 
-# (선택) 'Edit this page' 같은 링크 끄기
+# 'Edit this page'류 링크 끄기
 gh_edit_link: false
