@@ -25,3 +25,7 @@ $\slashed{p}$
 $$
     \slashed{p}=\gamma^\mu p_\mu
 $$
+
+$$
+    \braket{\psi H\psi}
+$$
