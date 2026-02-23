@@ -1,16 +1,13 @@
-<!-- MathJax v3 (TeX) -->
+<!-- MathJax v3 global -->
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      inlineMath: [['\\(', '\\)'], ['$', '$']],
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],
       processEscapes: true,
+      processEnvironments: true,
       macros: {
-        // physics-style macros
-        slashed: ["{\\,\\!\\not\\!#1}", 1],
-        vev: ["\\left\\langle #1 \\right\\rangle", 1],
-        abs: ["\\left|#1\\right|", 1],
-        order: ["\\mathcal{O}\\!\\left(#1\\right)", 1]
+        slashed: ["{\\,\\!\\not\\!#1}", 1]
       }
     },
     options: {
@@ -23,16 +20,16 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (window.MathJax && window.MathJax.typesetPromise) {
-      window.MathJax.typesetPromise();
-    }
-  });
+  // typeset after MathJax startup
+  function typesetMath() {
+    if (!window.MathJax || !MathJax.typesetPromise) return;
+    MathJax.startup.promise
+      .then(() => MathJax.typesetPromise())
+      .catch((err) => console.error("MathJax typeset failed:", err));
+  }
 
-  // Just the Docs는 페이지 전환이 일어나기도 해서, 클릭 후에도 다시 typeset
-  document.addEventListener("click", function () {
-    if (window.MathJax && window.MathJax.typesetPromise) {
-      window.MathJax.typesetPromise();
-    }
-  });
+  window.addEventListener("load", () => setTimeout(typesetMath, 0));
+  document.addEventListener("DOMContentLoaded", () => setTimeout(typesetMath, 0));
+  document.addEventListener("click", () => setTimeout(typesetMath, 0));
 </script>
+

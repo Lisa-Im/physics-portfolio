@@ -20,5 +20,9 @@ nav_order: 1
 - Tools: LaTeX, Mathematica, Python, Git, VSCode, Obsidian
 - Contact: hyeseon.im.0814@gmail.com / lisa_im0814@ewha.ac.kr
 
-테스트 : $\slashed{p}$
-$$\slashed{p} $$
+테스트 inline: \( \slashed{p} \)
+
+테스트 display:
+\[
+\slashed{p} = \gamma^\mu p_\mu
+\]
