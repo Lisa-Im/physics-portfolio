@@ -1,0 +1,23 @@
+<!-- MathJax v3 (TeX) -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      macros: {
+        // physics-style macros
+        slashed: ["{\\,\\!\\not\\!#1}", 1],
+        vev: ["\\left\\langle #1 \\right\\rangle", 1],
+        abs: ["\\left|#1\\right|", 1],
+        order: ["\\mathcal{O}\\!\\left(#1\\right)", 1]
+      }
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

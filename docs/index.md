@@ -19,3 +19,5 @@ nav_order: 1
 - Interests: Theoretical particle physics 
 - Tools: LaTeX, Mathematica, Python, Git, VSCode, Obsidian
 - Contact: hyeseon.im.0814@gmail.com / lisa_im0814@ewha.ac.kr
+
+테스트 : $slashed{p}$
