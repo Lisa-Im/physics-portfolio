@@ -27,5 +27,5 @@ $$
 $$
 
 $$
-    \braket{\psi H\psi}
+    \ln p \quad \Tr A \quad \bra{\psi}H\ket{\psi}
 $$
