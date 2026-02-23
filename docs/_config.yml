@@ -17,3 +17,7 @@ color_scheme: dark
 
 # 'Edit this page'류 링크 끄기
 gh_edit_link: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
