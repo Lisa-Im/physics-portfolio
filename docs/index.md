@@ -22,6 +22,6 @@ nav_order: 1
 
 $\slashed{p}$
 
-\[
+$$
     \slashed{p}=\gamma^\mu p_\mu
-\]
+$$
