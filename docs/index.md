@@ -21,4 +21,6 @@ nav_order: 1
 - Contact: hyeseon.im.0814@gmail.com / lisa_im0814@ewha.ac.kr
 
 $\slashed{p}$
-$$\slashed{p}=\gamma_\mu\p^\mu$$
+$$
+\slashed{p}=\gamma_\mu p^\mu
+$$
