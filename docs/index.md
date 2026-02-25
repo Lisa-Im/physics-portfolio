@@ -11,7 +11,7 @@ nav_order: 1
 ## Start here 
 - **Research**: 석사 논문 관련 계산/정리, 프로젝트 단위 기록 → [Research](research.md)
 - **Notes**: QFT/입자물리/기초과목 요약 노트 → [Notes](notes.md)
-- **Code**: 계산 자동화/시각화 실습 → [Code](code.md)
+- **Code**: 계산 자동화/시각화 실습 → [Code](docs/code.md)
 - **Reading log**: 논문 리뷰(요약/검증/질문) → [Reading](reading.md)
 
 ## About
