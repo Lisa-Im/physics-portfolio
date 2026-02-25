@@ -13,7 +13,7 @@ url: "https://lisa-im.github.io"
 baseurl: "/physics-portfolio"
 
 search_enabled: true
-color_scheme: dark
+color_scheme: light
 
 # 'Edit this page'류 링크 끄기
 gh_edit_link: false
