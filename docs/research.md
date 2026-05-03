@@ -9,7 +9,8 @@ nav_order: 2
  Higgs Mass Correction
 
 ---
-[Gauge-independnet-mass](docs/_includes/01.research-notes/gauge-independent-mass/main.md)
+Gauge-Independent-mass
+{% include 01.research-notes/gauge-independent-mass/main.md %}
 
 ---
  SUSY
