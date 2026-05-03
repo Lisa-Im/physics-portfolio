@@ -6,14 +6,18 @@ nav_order: 2
 # Research
 
 ## Featured
- Higgs Mass Correction
+### Higgs Mass Correction
 
 ---
-Gauge-Independent-mass
+### Gauge-Independent-mass
+<div class="quotation">
+
 {% include 01.research-notes/gauge-independent-mass/main.md %}
 
+</div>
+
 ---
- SUSY
+### SUSY
 
 ## Archive
 - WIP
