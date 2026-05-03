@@ -6,7 +6,14 @@ nav_order: 2
 # Research
 
 ## Featured
-- WIP
+[[notes ; higgs-mass-correction]]
+
+---
+![[notes ; gauge-independent-mass]]
+
+---
+[[notes ; susy-intro]]
+
 
 ## Archive
 - WIP
