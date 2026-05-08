@@ -8,7 +8,6 @@ nav_order: 2
 ## Featured
 ### Higgs Mass Correction
 
----
 ### Gauge-Independent-mass
 <div class="quotation" markdown="1">
 
@@ -16,7 +15,6 @@ nav_order: 2
 
 </div>
 
----
 ### SUSY
 
 ## Archive
